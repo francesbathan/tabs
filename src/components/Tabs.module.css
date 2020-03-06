@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+  background-color: rgb(242, 255, 253);
+}
+.container {
+  margin: 5vw auto;
+}
+.tabHeader {
+  display: flex;
+  justify-content: center;
+}
+.inactiveTabs {
+  padding: 15px 10px;
+  margin: 10px 0px -0px 0px;
+  width: 10vw;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  border-top-left-radius: 20px;
+  font-weight: 500;
+  font-size: 15pt;
+}
+.activeTab {
+  background-color: rgb(186, 233, 233);
+  padding: 15px 10px;
+  margin: 10px 0px 0px 0px;
+  width: 10vw;
+  cursor: pointer;
+  margin: 10px 0px 0px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-weight: 500;
+  font-size: 15pt;
+}
+.content {
+  background-image: linear-gradient(#bae9e9 0%, rgb(0, 165, 165) 100%);
+  padding: 40px 50px;
+  margin: 0px auto 10px auto;
+  width: 50vw;
+  min-height: 50vh;
+  font-size: 11pt;
+  border-radius: 20px;
+}
+.contentText {
+  background: transparent !important;
+  opacity: 1;
+  animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
