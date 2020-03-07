@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./Tabs.module.css";
-import { Animated } from "react-animated-css";
 
 function Tabs(props) {
   const tabs = [
@@ -23,6 +22,10 @@ function Tabs(props) {
 
   const [activeTab, setActiveTab] = useState(0);
 
+  tabs.content = {
+    visible: false
+  };
+
   return (
     <div className={styles.container}>
       <div name="header" className={styles.tabHeader}>
@@ -39,7 +42,13 @@ function Tabs(props) {
         ;
       </div>
       <div name="content" className={styles.content}>
-        <p className={styles.contentText}>{tabs[activeTab].content}</p>
+        <p
+          className={
+            tabs.content.visible ? styles.contentText : styles.contentText
+          }
+        >
+          {tabs[activeTab].content}
+        </p>
       </div>
     </div>
   );

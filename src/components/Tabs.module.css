@@ -13,7 +13,7 @@
 }
 .inactiveTabs {
   padding: 15px 10px;
-  margin: 10px 0px -0px 0px;
+  margin: 10px 0px 0px 0px;
   width: 10vw;
   cursor: pointer;
   background-color: teal;
@@ -24,14 +24,17 @@
 }
 .inactiveTabs:hover {
   padding: 15px 10px;
-  margin: 10px 0px -0px 0px;
+  margin: 10px 0px 0px 0px;
   width: 10vw;
   cursor: pointer;
-  background-color: rgb(154, 206, 206);
+  background-color: rgb(213, 255, 255);
   color: teal;
   border-top-left-radius: 20px;
   font-weight: 500;
   font-size: 15pt;
+  /* border-top: teal 3px solid;
+  border-left: teal 3px solid; */
+  border-bottom: teal 3px solid;
 }
 .activeTab {
   background-color: rgb(186, 233, 233);
