@@ -1,0 +1,90 @@
+.container {
+  margin: 5vw auto;
+}
+.header {
+  margin-bottom: 2vw;
+}
+.taskInput {
+  outline: none;
+  padding: 10px;
+  width: 15vw;
+  border: none;
+  background-color: #bae9e9;
+  border-radius: 10px;
+}
+.addButton {
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 5vw;
+  border: none;
+  background-color: teal;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+}
+.addButton:hover {
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 5vw;
+  border: none;
+  background-color: #bae9e9;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: teal;
+}
+.taskPanel {
+  margin-top: 2vw;
+  display: block;
+}
+.taskList {
+  margin: 1vw;
+  font-size: 10pt;
+  text-align: left;
+  display: block;
+}
+.checkbox {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: 11px;
+}
+.taskStyle {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  width: 10vw;
+}
+.tasks {
+  display: block;
+}
+.deleteBtn {
+  margin-left: 5vw;
+  background-color: transparent;
+  border: 1px solid teal;
+  padding: 2px 15px;
+  border-radius: 10px;
+  font-size: 8pt;
+  vertical-align: middle;
+}
+.deleteBtn:hover {
+  margin-left: 5vw;
+  background-color: teal;
+  padding: 2px 15px;
+  border-radius: 10px;
+  font-size: 8pt;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}
+.checkedTask {
+  text-decoration: line-through;
+  color: gray;
+  font-style: oblique;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  width: 10vw;
+}

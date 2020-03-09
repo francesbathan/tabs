@@ -1,7 +1,8 @@
 import React from "react";
 // import logo from './logo.svg';
-import "./App.css";
+import styles from "./App.css";
 import Tabs from "./components/Tabs";
+import ToDoList from "./components/ToDoList";
 
 const tabs = [
   {
@@ -21,7 +22,8 @@ const tabs = [
 function App() {
   return (
     <div className="App">
-      <Tabs items={tabs} />
+      <Tabs items={tabs} className={styles.Tabs} />
+      <ToDoList className={styles.ToDo} />
     </div>
   );
 }

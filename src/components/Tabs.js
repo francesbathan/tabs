@@ -39,7 +39,6 @@ function Tabs(props) {
             TAB {i + 1}
           </div>
         ))}
-        ;
       </div>
       <div name="content" className={styles.content}>
         <p
