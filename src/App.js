@@ -7,15 +7,18 @@ import ToDoList from "./components/ToDoList";
 const tabs = [
   {
     label: "Tab 1 label",
-    content: "Hello Lilly"
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis cum non? Molestiae, tenetur dolore. Recusandae, nulla? Nobis voluptatibus sapiente nihil ipsam. Iure dolores vitae perspiciatis, sapiente nihil cupiditate aliquid."
   },
   {
     label: "Tab 2 label",
-    content: "Hello Chewie"
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptates perspiciatis. Earum expedita dolore labore mollitia ad assumenda veniam, recusandae sed, iste porro repudiandae accusantium sunt doloremque commodi in quis."
   },
   {
-    label: "Tab 2 label",
-    content: "Hello Smooch"
+    label: "Tab 3 label",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptates perspiciatis. Earum expedita dolore labore mollitia ad assumenda veniam, recusandae sed, iste porro repudiandae accusantium sunt doloremque commodi in quis."
   }
 ];
 
